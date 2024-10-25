@@ -1,0 +1,68 @@
+.cabecalho {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+    background-color: black;
+  }
+  
+  .menu__lista {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .menu__item {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu__item.ativo {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  
+  .menu__item:hover {
+    opacity: 65%;
+  }
+  
+  .menu__item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cabecalho__imagem {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .principal {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    min-height: 100vh;
+  }
+  
+  .rodape {
+    padding: 2em;
+    background-color: black;
+  }
+  
+  .rodape__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1.5em;
+  }
+  
+  .rodape__imagem {
+    width: 60px;
+    height: 60px;
+  }
+  
