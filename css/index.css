@@ -1,0 +1,128 @@
+.cabecalho {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+    background-color: black;
+  }
+  
+  .menu__lista {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .menu__item {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu__item.ativo {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  
+  .menu__item:hover {
+    opacity: 65%;
+  }
+  
+  .menu__item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cabecalho__imagem {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .principal {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    min-height: calc(100vh-20vh);
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section__titulo {
+    font-size: 3em;
+    margin: 2em 0;
+    text-align: center;
+  }
+  
+  .section__descricao {
+    font-size: 1.5em;
+    text-align: center;
+    max-width: 50%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    margin: 7em auto;
+    padding: 4em;
+    border: 2px solid #000;
+    border-radius: 10px;
+    gap: 3em;
+    max-width: 50%;
+  }
+  
+  .card {
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  .card__imagem {
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+  }
+  
+  .card__div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .div__titulo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .div__descricao {
+    font-size: 25px;
+    max-width: 700px;
+  }
+  
+  .rodape {
+    padding: 2em;
+    background-color: black;
+  }
+  
+  .rodape__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1.5em;
+  }
+  
+  .rodape__imagem {
+    width: 60px;
+    height: 60px;
+  }
+  
